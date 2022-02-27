@@ -11,6 +11,7 @@ export default function render(element, container) {
     element.type == TEXT_ELEMENT
       ? document.createTextNode("")
       : document.createElement(element.type);
+
   // 为节点绑定属性 (除子节点以外)
   const isProperty = (key) => key !== "children";
   Object.keys(element.props)
@@ -21,7 +22,7 @@ export default function render(element, container) {
 
   // 处理子节点
   element.props.children.forEach((child) => render(child, dom));
-  
+
   // 添加到容器
   container.appendChild(dom);
 }
