@@ -4,7 +4,7 @@ import ReactDOM from "@tinyreact/react-dom";
 // 使用 React 和 ReactDOM 创建一个简单的组件
 
 // 用于 babel 转换的 jsx 语法
-/** @jsx React.h */
+/** @jsx React.createElement */
 /** @jsxFrag React.Fragment */
 
 /**
@@ -24,4 +24,4 @@ export default function App() {
  * @param {React.Component} App
  * @param {HTMLElement} document.getElementById("app")
  */
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(App(), document.getElementById("app"));

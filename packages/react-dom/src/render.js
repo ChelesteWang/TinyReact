@@ -5,7 +5,7 @@ const TEXT_ELEMENT = "TEXT_ELEMENT";
  * @param {element} 虚拟 DOM
  * @param {container} 真实 DOM
  */
-export function render(element, container) {
+export default function render(element, container) {
   // 处理文本节点和标签节点
   const dom =
     element.type == TEXT_ELEMENT
