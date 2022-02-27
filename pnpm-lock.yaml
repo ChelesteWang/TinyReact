@@ -1,0 +1,14 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/demo:
+    specifiers:
+      '@tinyreact/react': workspace:^1.0.0
+      '@tinyreact/react-dom': workspace:^1.0.0
+    dependencies:
+      '@tinyreact/react': link:../react
+      '@tinyreact/react-dom': link:../react-dom
