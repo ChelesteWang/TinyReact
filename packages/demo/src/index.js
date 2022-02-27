@@ -11,10 +11,10 @@ import ReactDOM from "@tinyreact/react-dom";
  * 创建一个 React 组件
  * @returns {React.Component}
  */
-export default function App() {
+export default function App({ name }) {
   return (
     <div>
-      <h1>Hello, world!</h1>
+      <h1>Hello, {name}</h1>
     </div>
   );
 }
@@ -24,4 +24,4 @@ export default function App() {
  * @param {React.Component} App
  * @param {HTMLElement} document.getElementById("app")
  */
-ReactDOM.render(App(), document.getElementById("app"));
+ReactDOM.render(App({ name: "TinyReact" }), document.getElementById("app"));
