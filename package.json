@@ -1,0 +1,20 @@
+{
+  "name": "tinyreact",
+  "version": "1.0.0",
+  "description": "一个 React 丐中丐版实现，用于自己尝试学习 React , 可能功能和 react 实现“完全”不同。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChelesteWang/TinyReact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChelesteWang/TinyReact/issues"
+  },
+  "homepage": "https://github.com/ChelesteWang/TinyReact#readme"
+}
