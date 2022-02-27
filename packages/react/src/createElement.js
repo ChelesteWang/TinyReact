@@ -4,7 +4,7 @@ const TEXT_ELEMENT = "TEXT_ELEMENT";
  * 创建虚拟DOM结构
  * @param {*} type 标签
  * @param {*} props 属性
- * @param  {...any} children 自己诶单
+ * @param  {...any} children 子节点
  * @returns 虚拟DOM结构
  */
 export function createElement(type, props, ...children) {
